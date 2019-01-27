@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="schools">
+        <item>DLSU</item>
+        <item>DLS-CSB</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="genderPreference">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Anyone</item>
+    </string-array>
+    <string-array name="dlsucollege">
+        <item>BAGCED</item>
+        <item>CCS</item>
+        <item>CLA</item>
+        <item>COS</item>
+        <item>GCOE</item>
+        <item>RVRCOB</item>
+        <item>SOE</item>
+
+
+    </string-array>
+</resources>

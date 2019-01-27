@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "546832971629",
+    "firebase_url": "https://dlsu-animomol.firebaseio.com",
+    "project_id": "dlsu-animomol",
+    "storage_bucket": "dlsu-animomol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546832971629:android:01e204e687e369a7",
+        "android_client_info": {
+          "package_name": "com.example.clpagaduan.animomol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546832971629-hp9so69vtkugcel9j99o9i747rma0nkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clpagaduan.animomol",
+            "certificate_hash": "11e5b3f2c71bba6bc6efd02b029ab9f117782802"
+          }
+        },
+        {
+          "client_id": "546832971629-1c0klj9b1bm2bjln9jkesnh4pnvg8kj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuLokWr4VaGNVCxls1u05PILYBVG_1haY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546832971629-1c0klj9b1bm2bjln9jkesnh4pnvg8kj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

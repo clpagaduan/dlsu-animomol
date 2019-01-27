@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfile">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/ic_action_name" />
+
+        <ImageView
+            android:id="@+id/img_catalog"
+            android:layout_width="190dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            app:srcCompat="@drawable/icon_animomol" />
+
+        <ImageView
+            android:id="@+id/img_messages"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_message" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffeee9e2">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginBottom="20sp"
+            tools:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edit_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Last Name"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/edit_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="First Name"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College" />
+
+        <Spinner
+            android:id="@+id/spn_college"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:entries="@array/dlsucollege" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Degree Program" />
+
+        <EditText
+            android:id="@+id/edit_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e.g. BS-ADV"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About me " />
+
+        <EditText
+            android:id="@+id/edit_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tell something about yourself..."
+            android:inputType="textMultiLine" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:gravity="bottom|center_horizontal">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="SAVE" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="CANCEL" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:text="LOG OUT" />
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>

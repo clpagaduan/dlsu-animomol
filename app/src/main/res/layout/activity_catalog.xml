@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Catalog">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/ic_action_name" />
+
+        <ImageView
+            android:id="@+id/img_catalog"
+            android:layout_width="190dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            app:srcCompat="@drawable/icon_animomol" />
+
+        <ImageView
+            android:id="@+id/img_messages"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_message" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG OUT" />
+
+        <Button
+            android:id="@+id/btn_matches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW MATCHES" />
+    </TableRow>
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffeee9e2"
+        app:rotation_degrees="15.5" />
+
+
+</LinearLayout>

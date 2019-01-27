@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="juan_delacruz@dlsu.edu.ph"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textColorLink="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="278dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="LOG IN"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="269dp"
+        android:layout_height="20dp"
+        android:text="Not yet registered? Join now!"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+</LinearLayout>
